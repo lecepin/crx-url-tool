@@ -38,6 +38,9 @@ urlMatch == window.location.host || window.location.href.indexOf(urlMatch) == 0;
 
 当匹配到当前网址时，会判断有没有配置的 query，如果有 则不做任何处理，如果没有 则拼接 URL，并重新加载页面。
 
+![image](https://user-images.githubusercontent.com/11046969/148644494-c30bc212-f966-4010-89d0-1012a5354a6d.png)
+
+
 ### 配置结构
 
 界面上的配置，底层存储结构如下：
